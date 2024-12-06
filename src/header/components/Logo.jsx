@@ -3,7 +3,7 @@ export const Logo = () => {
     <div className="header-logo">
       <a href="./">
         <img
-          src="../../assets/grupo-reu-logo.jpeg"
+          src="./assets/grupo-reu-logo.jpeg"
           width="75%"
           alt="Grupo Reu Law Firm Logo"
         />
