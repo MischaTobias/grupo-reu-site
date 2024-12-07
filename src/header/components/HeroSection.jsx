@@ -1,4 +1,4 @@
-export const TopBar = () => {
+export const HeroSection = () => {
   return (
     <div className="header-top">
       <div className="container">
@@ -26,7 +26,7 @@ export const TopBar = () => {
                 </li>
                 <li className="list-inline-item text-color-dark text-2 mb-0 d-none d-lg-inline-block">
                   <i className="icons icon-calendar text-color-primary text-3-5 position-relative top-1 me-1"></i>
-                  Mon - Sat 9am - 5pm
+                  Lunes - Sábado 9am - 5pm
                 </li>
               </ul>
             </div>
@@ -57,7 +57,7 @@ export const TopBar = () => {
                 href="https://ww7.welcomeclient.com/4DCGI/web_handle_general_intake/get/10804"
                 className="btn btn-primary btn-px-4 py-3 font-weight-bold text-2 rounded-0 ms-lg-4"
               >
-                REQUEST CONSULTATION
+                SOLICITAR CONSULTA
               </a>
             </div>
           </div>

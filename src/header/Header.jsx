@@ -1,10 +1,14 @@
-import { HeaderNavLinks, HeaderNavFeatures, Logo, TopBar } from "./components";
+import {
+  HeaderNavLinks,
+  HeaderNavFeatures,
+  Logo,
+  HeroSection,
+} from "./components";
 
 export const Header = () => {
   return (
     <header id="header" className="header-effect-shrink">
-      {/* Top Bar */}
-      <TopBar />
+      <HeroSection />
 
       <div className="container">
         <div className="header-row">

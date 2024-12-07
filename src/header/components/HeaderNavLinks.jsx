@@ -5,11 +5,13 @@ export const HeaderNavLinks = () => {
         <nav className="collapse">
           <ul className="nav nav-pills" id="mainNav">
             <li>
-              <a className="nav-link active">Home</a>
+              <a className="nav-link active" href="#">
+                Inicio
+              </a>
             </li>
             <li>
               <a href="demo-law-firm-2-about.html" className="nav-link">
-                About
+                Acerca de
               </a>
             </li>
             <li className="dropdown">
@@ -17,7 +19,7 @@ export const HeaderNavLinks = () => {
                 href="demo-law-firm-2-practice-areas.html"
                 className="dropdown-item dropdown-toggle"
               >
-                Practice Areas
+                Áreas de práctica
               </a>
               <ul className="dropdown-menu border-radius-0">
                 <li>
@@ -64,12 +66,12 @@ export const HeaderNavLinks = () => {
             </li>
             <li>
               <a href="demo-law-firm-2-attorney.html" className="nav-link">
-                Attorney
+                Abogados
               </a>
             </li>
             <li>
               <a href="demo-law-firm-2-case-study.html" className="nav-link">
-                Case Study
+                Casos de estudio
               </a>
             </li>
             <li>
@@ -79,7 +81,7 @@ export const HeaderNavLinks = () => {
             </li>
             <li>
               <a href="demo-law-firm-2-contact.html" className="nav-link">
-                Contact
+                Contacto
               </a>
             </li>
           </ul>

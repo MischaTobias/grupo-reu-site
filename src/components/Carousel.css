@@ -1,0 +1,106 @@
+/** Styles for the carousel **/
+
+.carousel-container {
+  height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    height: 30vh;
+  }
+}
+
+.slick-slider {
+  height: 100%;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 100;
+  width: 7%;
+  height: 100%;
+}
+
+/* Avoid borders on body because of the "next" and "prev" buttons */
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+}
+
+/** Styling for the text box **/
+/* Ensure the container of each slide is relatively positioned */
+.carousel-item {
+  position: relative;
+  width: 100%; /* Or a specific width based on your design */
+  height: 100%; /* Or specific height */
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  z-index: 2; /* Make sure it's above the image but below the text */
+}
+
+/* Position the text element over the content */
+.carousel-text {
+  position: absolute;
+  top: 60%; /* Adjust the top value as per your preference */
+  left: 50%;
+  transform: translateX(-50%); /* To center the text */
+  color: white; /* Adjust text color */
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Make text bold */
+  text-align: center;
+  z-index: 10; /* Ensure it's above the content */
+}
+
+/* Make sure the items in each slide are behind the text */
+.slide-image {
+  position: relative;
+  z-index: 1;
+}
+
+/* Style for h3 (bright color) */
+.carousel-text h3 {
+  color: #ffffff; /* Bright white color */
+  font-size: 0.8rem; /* Adjust font size */
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for p (slightly less bright but readable) */
+.carousel-text p {
+  color: #e0e0e0; /* Lighter gray color */
+  font-size: 0.5rem; /* Adjust font size */
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+
+@media (min-width: 768px) {
+  .carousel-text {
+    top: 10%;
+  }
+  .carousel-text h3 {
+    font-size: 2rem !important;
+  }
+  .carousel-text p {
+    font-size: 1rem !important;
+  }
+}
