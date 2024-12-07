@@ -1,25 +1,28 @@
 /** Styles for the carousel **/
 
-.carousel-container {
-  height: 70vh;
+.carousel-container,
+.slick-slider,
+.slick-list,
+.slick-track,
+.carousel-item,
+.slide-image {
+  height: 60vh;
 }
 
 @media (max-width: 768px) {
-  .carousel-container {
+  .carousel-container,
+  .slick-slider,
+  .slick-list,
+  .slick-track,
+  .carousel-item,
+  .slide-image {
     height: 30vh;
   }
 }
 
-.slick-slider {
-  height: 100%;
-}
-
-.slick-list {
-  height: 100%;
-}
-
 .carousel-item img {
   width: 100%;
+  overflow-y: hidden;
 }
 
 .slick-prev,
@@ -73,6 +76,8 @@
 .slide-image {
   position: relative;
   z-index: 1;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Style for h3 (bright color) */
@@ -80,6 +85,7 @@
   color: #ffffff; /* Bright white color */
   font-size: 0.8rem; /* Adjust font size */
   font-weight: bold;
+  font-family: "Lora", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -89,14 +95,12 @@
   color: #e0e0e0; /* Lighter gray color */
   font-size: 0.5rem; /* Adjust font size */
   font-weight: normal;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   margin: 10px 0 0;
 }
 
 @media (min-width: 768px) {
-  .carousel-text {
-    top: 10%;
-  }
   .carousel-text h3 {
     font-size: 2rem !important;
   }
