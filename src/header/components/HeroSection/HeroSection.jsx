@@ -22,7 +22,7 @@ export const HeroSection = () => {
 
         {/* Right Section */}
         <div className="right-section">
-          <div className="social-icons">
+          <div className="social-icons d-none d-md-inline">
             <a href="https://www.facebook.com/gruporeu" className="me-2">
               <i className="fa-brands fa-facebook"></i>
             </a>
