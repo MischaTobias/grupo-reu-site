@@ -28,7 +28,8 @@
 
 .right-section {
   display: flex;
-  align-items: center;
+  align-items: right;
+  width: 25%;
   gap: 15px; /* Spacing between button and icons */
 }
 
@@ -47,11 +48,18 @@
   padding: 8px 15px;
   border-radius: 0;
   height: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--primary);
   border-color: var(--btn-primary-border);
+}
+
+@media (max-width: 768px) {
+  .solicitar-btn {
+    width: 100%;
+  }
 }
 
 .container,
