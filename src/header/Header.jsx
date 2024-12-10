@@ -12,7 +12,7 @@ export const Header = () => {
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="#">
             <img
-              src="/path-to-logo.png"
+              src="/assets/grupo-reu-logo.jpeg"
               alt="Logo"
               className="logo me-2"
               height="40"

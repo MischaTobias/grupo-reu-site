@@ -1,6 +1,7 @@
 /* index.css */
-@import "src/styles/_variables.css";
+@import "./styles/_variables.css";
 
-.body {
-  background-color: var(--background) !important;
+body {
+  background-color: var(--background);
+  font-size: 14px;
 }
