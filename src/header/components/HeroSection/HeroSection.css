@@ -35,7 +35,7 @@
 
 .social-icons a {
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .social-icons a:hover {
@@ -43,8 +43,8 @@
 }
 
 .solicitar-btn {
-  font-weight: bold;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
   padding: 8px 15px;
   border-radius: 0;
   height: 100%;
@@ -54,6 +54,7 @@
   justify-content: center;
   background-color: var(--primary);
   border-color: var(--btn-primary-border);
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {

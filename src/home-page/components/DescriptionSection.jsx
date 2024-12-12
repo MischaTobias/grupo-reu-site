@@ -33,7 +33,7 @@ export const DescriptionSection = () => {
             data-appear-animation-delay="600"
             style={{ animationDelay: "600ms" }}
           >
-            CYNTHIA MAZARIEGOS - CEO &amp; FOUNDER
+            CYNTHIA MAZARIEGOS DE FERNANDEZ - CEO &amp; FOUNDER
           </p>
           <img
             src="img/demos/law-firm-2/signature.png"
