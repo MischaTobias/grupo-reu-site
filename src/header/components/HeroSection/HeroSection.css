@@ -28,7 +28,7 @@
 
 .right-section {
   display: flex;
-  align-items: right;
+  justify-content: flex-end;
   width: 25%;
   gap: 15px; /* Spacing between button and icons */
 }
