@@ -1,4 +1,4 @@
-import React from "react";
+import "./DescriptionSection.css";
 
 export const DescriptionSection = () => {
   return (
@@ -11,7 +11,9 @@ export const DescriptionSection = () => {
             data-appear-animation-delay="200"
             style={{ animationDelay: "200ms" }}
           >
-            <em>Servicio Global Provisto Por Excelentes Abogados</em>
+            <em className="descriptionTitle">
+              Servicio Global Provisto Por Excelentes Abogados
+            </em>
           </h2>
           <p
             className="font-weight-light text-color-dark mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"

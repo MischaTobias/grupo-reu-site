@@ -1,9 +1,15 @@
 .navbar-brand {
-  width: 50%;
+  width: 30%;
+  margin-right: 0;
 }
 
 .navbar-brand img {
   width: 50%;
   max-width: 175px;
+  min-width: 100px;
   height: auto !important;
+}
+
+#navbarNav {
+  width: 70%;
 }
