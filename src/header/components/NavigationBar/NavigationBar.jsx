@@ -6,7 +6,7 @@ export const NavigationBar = () => {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#">
           <img
-            src="/assets/grupo-reu-logo.jpeg"
+            src="./assets/grupo-reu-logo.jpeg"
             alt="Grupo REU Law Firm Logo"
           />
         </a>
