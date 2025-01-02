@@ -7,7 +7,6 @@
   font-weight: 400;
   height: 50px; /* Set consistent height */
   line-height: 50px; /* Center-align content vertically */
-  padding: 0 15px;
   width: 100% !important;
 }
 
@@ -23,13 +22,14 @@
 }
 
 .contact-info {
-  width: 75%;
+  width: 60%;
 }
 
 .right-section {
   display: flex;
   justify-content: flex-end;
-  width: 25%;
+  width: 40%;
+  min-width: 130px !important;
   gap: 15px; /* Spacing between button and icons */
 }
 
@@ -44,11 +44,13 @@
 
 .solicitar-btn {
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.75rem !important;
   padding: 8px 15px;
   border-radius: 0;
   height: 100%;
-  width: 60%;
+  width: 100%;
+  max-width: 200px;
+  min-width: 130px !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,6 +69,10 @@
 .right-section,
 .solicitar-btn {
   height: 100%;
+}
+
+.container {
+  width: 100%;
 }
 
 .solicitar-btn:hover,

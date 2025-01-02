@@ -85,7 +85,8 @@
   color: #ffffff; /* Bright white color */
   font-size: 0.8rem; /* Adjust font size */
   font-weight: bold;
-  font-family: "Lora", sans-serif;
+  font-family: "Lora";
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
@@ -94,8 +95,8 @@
 .carousel-text p {
   color: #e0e0e0; /* Lighter gray color */
   font-size: 0.5rem; /* Adjust font size */
-  font-weight: normal;
-  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-family: "Poppins";
   line-height: 1.5;
   margin: 10px 0 0;
 }

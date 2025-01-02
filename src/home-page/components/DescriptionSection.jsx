@@ -16,7 +16,7 @@ export const DescriptionSection = () => {
             </em>
           </h2>
           <p
-            className="font-weight-light text-color-dark mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"
+            className="description font-weight-light text-color-dark mb-4 appear-animation animated fadeInUpShorter appear-animation-visible"
             data-appear-animation="fadeInUpShorter"
             data-appear-animation-delay="400"
             style={{ animationDelay: "400ms" }}
@@ -30,10 +30,10 @@ export const DescriptionSection = () => {
             expectativas.
           </p>
           <p
-            className="positive-ls-3 text-color-grey mb-3 appear-animation animated fadeInUpShorter appear-animation-visible"
+            className="positive-ls-3 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible"
             data-appear-animation="fadeInUpShorter"
             data-appear-animation-delay="600"
-            style={{ animationDelay: "600ms" }}
+            style={{ animationDelay: "600ms", color: "grey" }}
           >
             CYNTHIA MAZARIEGOS DE FERNANDEZ - CEO &amp; FOUNDER
           </p>

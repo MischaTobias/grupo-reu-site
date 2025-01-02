@@ -13,3 +13,7 @@
 #navbarNav {
   width: 70%;
 }
+
+.navbar-toggler {
+  background-color: transparent;
+}
