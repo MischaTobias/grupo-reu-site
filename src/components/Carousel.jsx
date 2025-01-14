@@ -14,7 +14,10 @@ export const Carousel = ({ slides }) => {
     <div className="carousel-container">
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className="carousel-item">
+          <div
+            key={index}
+            className="carousel-item animate__animated animate__fadeInDown animate__faster"
+          >
             <img className="slide-image" src={slide.image} alt={slide.title} />
             <div className="carousel-text">
               <h3>{slide.title}</h3>
