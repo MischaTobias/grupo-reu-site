@@ -1,6 +1,25 @@
 import { Link, NavLink } from "react-router-dom";
 import "./NavigationBar.css";
 
+const pages = [
+  {
+    name: "Inicio",
+    path: "/",
+  },
+  {
+    name: "Sobre Nosotros",
+    path: "/about",
+  },
+  {
+    name: "Servicios",
+    path: "/practice-areas",
+  },
+  {
+    name: "Contacto",
+    path: "/contact",
+  },
+];
+
 export const NavigationBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
@@ -24,56 +43,20 @@ export const NavigationBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to={"/"}
-              >
-                Inicio
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to={"/about"}
-              >
-                Acerca De
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className={({ isActive }) =>
-                  `nav-link ${isActive ? "active" : ""}`
-                }
-                to={"/practice-areas"}
-              >
-                Áreas De Práctica
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Abogados
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Casos De Estudio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Blog
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contacto
-              </a>
-            </li>
+            {pages.map((page, index) => {
+              return (
+                <li className="nav-item" key={index}>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `nav-link ${isActive ? "active" : ""}`
+                    }
+                    to={page.path}
+                  >
+                    {page.name}
+                  </NavLink>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>

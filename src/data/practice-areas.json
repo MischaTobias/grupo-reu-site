@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Inmigración Familiar",
+    "description": "Ayudamos a las familias a reunirse y permanecer juntas:",
+    "list": [
+      {
+        "title": "Petición de Familiares",
+        "description": "Tramitamos solicitudes para obtener la residencia permanente para familiares cercanos."
+      },
+      {
+        "title": "Ciudadanía y Naturalización",
+        "description": "Lo guiamos en el proceso para convertirse en ciudadano estadounidense."
+      },
+      {
+        "title": "Representación ante Cortes de Inmigración",
+        "description": "Proveemos defensa legal para casos de deportación o remoción."
+      }
+    ],
+    "imageName": "family-immigration.jpg"
+  },
+  {
+    "title": "Programas de Acción y Protección",
+    "description": "Apoyamos su aplicación a programas humanitarios y de acción diferida:",
+    "list": [
+      {
+        "title": "DACA (Acción Diferida para los Llegados en la Infancia)",
+        "description": "Asistimos a jóvenes elegibles para protegerse contra la deportación y obtener permisos de trabajo."
+      },
+      {
+        "title": "DAPA",
+        "description": "Información sobre posibles programas futuros."
+      },
+      {
+        "title": "TPS (Estatus de Protección Temporal)",
+        "description": "Ayuda a quienes enfrentan crisis en sus países de origen."
+      },
+      {
+        "title": "Visas Humanitarias (U Visa y VAWA)",
+        "description": "Asistimos a víctimas de abuso o violencia en el proceso de solicitud de protecciones legales."
+      }
+    ],
+    "imageName": "action-protection.jpg"
+  },
+  {
+    "title": "Asilo y Protección Internacional",
+    "description": "Defendemos sus derechos como solicitante de asilo:",
+    "list": [
+      {
+        "title": "Asilo Político",
+        "description": "Representación para quienes buscan refugio debido a persecución en sus países de origen."
+      },
+      {
+        "title": "Perdones Migratorios",
+        "description": "Apoyo con trámites para superar inadmisibilidades."
+      },
+      {
+        "title": "Otras Opciones de Inmigración",
+        "description": "Exploramos soluciones adicionales según sus necesidades."
+      }
+    ],
+    "imageName": "asylum-protection.jpg"
+  }
+]

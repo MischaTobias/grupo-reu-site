@@ -1,0 +1,16 @@
+.contact-btn {
+  font-weight: 600;
+  font-size: 0.75rem !important;
+  border-radius: 0;
+  background-color: var(--primary);
+  border-color: var(--btn-primary-border);
+  text-transform: uppercase;
+}
+
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn:active {
+  background-color: var(--btn-primary-hover-color) !important;
+  border-color: var(--btn-primary-border) !important;
+  text-decoration: none;
+}

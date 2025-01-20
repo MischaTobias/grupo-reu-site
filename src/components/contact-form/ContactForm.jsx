@@ -1,4 +1,5 @@
-import { useForm } from "../../../hooks";
+import "./ContactForm.css";
+import { useForm } from "../../hooks";
 
 const contactFormFields = {
   email: "",
@@ -6,7 +7,7 @@ const contactFormFields = {
   name: "",
 };
 
-export const SimpleContactForm = () => {
+export const ContactForm = () => {
   const { email, message, name, formState, onInputChange } =
     useForm(contactFormFields);
 
@@ -69,7 +70,7 @@ export const SimpleContactForm = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary w-100">
+        <button type="submit" className="btn btn-primary w-100 contact-btn">
           Enviar Mensaje
         </button>
       </form>

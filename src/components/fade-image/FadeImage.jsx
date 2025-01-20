@@ -1,10 +1,10 @@
 import "./FadeImage.css";
 
-export const FadeImage = ({ imageName, isLeftFade = false }) => {
+export const FadeImage = ({ imageName, leftSide = false }) => {
   return (
     <img
-      src={`/public/assets/${imageName}`}
-      className={`fade-image-${isLeftFade ? "left" : "right"}`}
+      src={`./assets/${imageName}`}
+      className={`fade-image-${leftSide ? "right" : "left"}`}
       alt={imageName}
     />
   );
