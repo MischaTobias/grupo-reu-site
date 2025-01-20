@@ -1,7 +1,12 @@
 /* index.css */
 @import "./styles/_variables.css";
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: var(--background);
   font-size: 14px;
+  font-family: "Poppins";
 }

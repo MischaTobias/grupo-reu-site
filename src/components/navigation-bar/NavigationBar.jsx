@@ -1,15 +1,16 @@
+import { Link, NavLink } from "react-router-dom";
 import "./NavigationBar.css";
 
 export const NavigationBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
       <div className="container">
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <Link className="navbar-brand d-flex align-items-center" to={"/"}>
           <img
             src="./assets/grupo-reu-logo.jpeg"
             alt="Grupo REU Law Firm Logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,19 +25,34 @@ export const NavigationBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <NavLink
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+                to={"/"}
+              >
                 Inicio
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+                to={"/about"}
+              >
                 Acerca De
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <NavLink
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : ""}`
+                }
+                to={"/practice-areas"}
+              >
                 Áreas De Práctica
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">

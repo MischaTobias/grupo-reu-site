@@ -1,0 +1,37 @@
+.descriptionTitle {
+  font-family: "Lora";
+  font-weight: 800;
+  line-height: 1;
+  font-size: 2.25rem;
+}
+
+.description {
+  font-weight: 300;
+}
+
+.consulta-btn {
+  font-weight: 600;
+  color: black;
+  max-width: 70%;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+  border-color: var(--btn-primary-border);
+  border-width: 0 0 2px 0;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+.consulta-btn:hover,
+.consulta-btn:focus,
+.consulta-btn:active {
+  background-color: var(--btn-primary-hover-color) !important;
+  border-color: var(--btn-primary-border) !important;
+  text-decoration: none;
+}
+
+.ceo {
+  color: gray;
+}

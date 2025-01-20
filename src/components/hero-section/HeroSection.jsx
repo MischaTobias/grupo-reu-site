@@ -32,7 +32,7 @@ export const HeroSection = () => {
           </div>
           <a
             href="https://ww7.welcomeclient.com/4DCGI/web_handle_general_intake/get/10804"
-            className="btn btn-primary btn-sm text-white solicitar-btn"
+            className="btn text-white solicitar-btn"
           >
             Solicitar Consulta
           </a>

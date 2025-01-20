@@ -1,5 +1,5 @@
-import { HeroSection } from "./components/HeroSection";
-import { NavigationBar } from "./components/NavigationBar/NavigationBar";
+import { HeroSection } from "../hero-section/HeroSection";
+import { NavigationBar } from "../navigation-bar/NavigationBar";
 import "./Header.css";
 
 export const Header = () => {

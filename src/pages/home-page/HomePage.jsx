@@ -1,5 +1,4 @@
-import { Carousel, PageLayout } from "../components";
-import { DescriptionSection } from "./components";
+import { Carousel, DescriptionSection, PageLayout } from "../../components";
 
 const slides = [
   {
@@ -11,12 +10,12 @@ const slides = [
     title: "Nuestra meta",
     description:
       "Ayudar a los individuos y familias a pasar por el proceso de inmigración",
-    image: "./assets/photo2.jpg",
+    image: "./assets/gruporeuteam2.jpg",
   },
   {
     title: "Diversidad de servicios",
     description: "Desde obtener su residencia hasta la naturalización",
-    image: "./assets/photo3.jpg",
+    image: "./assets/gruporeuteam3.jpg",
   },
 ];
 
