@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./DescriptionSection.css";
 
 export const DescriptionSection = () => {
@@ -30,9 +31,9 @@ export const DescriptionSection = () => {
               justifyContent: "center",
             }}
           >
-            <a href="/consulta" className="btn btn-primary consulta-btn">
+            <Link to={"/contact-us"} className="btn btn-primary consulta-btn">
               Hable con un abogado hoy
-            </a>
+            </Link>
           </div>
         </div>
       </div>

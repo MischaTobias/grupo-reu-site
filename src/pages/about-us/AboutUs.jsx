@@ -69,7 +69,10 @@ export const AboutUs = () => {
           <p className="lead">
             Permítanos ayudarle a enfrentar sus desafíos legales con confianza.
           </p>
-          <Link className="btn btn-primary btn-lg consulta-btn" to={"/contact"}>
+          <Link
+            className="btn btn-primary btn-lg consulta-btn"
+            to={"/contact-us"}
+          >
             Contáctenos Hoy
           </Link>
         </div>
