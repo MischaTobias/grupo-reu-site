@@ -16,7 +16,7 @@ const pages = [
   },
   {
     name: "Contacto",
-    path: "/contact",
+    path: "/contact-us",
   },
 ];
 
